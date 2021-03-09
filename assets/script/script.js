@@ -20,10 +20,3 @@
 //     if (value) {
 //     }
 // }
-var searchBtn = document.getElementById("searchBtn");
-searchBtn.addEventListener("click", dataSearch);
-
-function dataSearch (event) {
-    event.preventDefault();
-    console.log("search button");
-}
