@@ -28,7 +28,6 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
-    font-family: 'Monoton', cursive;
 
 
 }
@@ -38,8 +37,6 @@ body {
     display: flex;
     margin-bottom: 0px;
     justify-content: center;
-    font-family: 'Monoton', cursive;
-    font-size: 24px;
 
 }
 #dates{
@@ -48,12 +45,12 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
-    font-family: 'Monoton', cursive;
+
+
 }
-#author{
-  background-color: black;
-  color: cornflowerblue;
-  padding: 38px;
-  text-indent: 30px;
+img{
+    display: flex;
+    display: inline-block;
+    vertical-align: middle;
 
 }
