@@ -9,6 +9,7 @@
     font-family: 'Press Start 2P', cursive;
     background-color: black;
     color: white;
+    margin-bottom: 0px;
 
 }
 
@@ -32,6 +33,7 @@
     color:black;
     background-color: limegreen;
     border-radius: 10px;
+    float: left;
 }
 /* leanred transfom and wanted to added to my buttons */
 .btn:hover {
@@ -46,4 +48,20 @@
     box-shadow:none;
     transform: none;
 
+}
+header img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(.4);
+}
+
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
