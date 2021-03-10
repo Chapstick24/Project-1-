@@ -22,6 +22,18 @@ function dataSearch (event) {
     console.log(searchEl);
 
     var searchUrl = url0 + url1 + searchEl;
-    fetch(searchUrl);
-    console.log(searchUrl);
+    fetch(searchUrl)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(data) {
+        document.getElementById("container").textContent = data.collection.items[0].data[0].description;
+        document.getElementById("picture").setAttribute("src", data.collection.items[0].links[0].href);
+        document.getElementById("picture1").setAttribute("src", data.collection.items[1].links[0].href);
+        console.log(data.collection.items[0]);
+        console.log(data.collection.items[1]);
+        console.log(data.collection.items[2]);
+
+
+    })
 }
