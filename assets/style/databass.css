@@ -9,7 +9,9 @@
   margin-bottom: 0px;
 
 }
-
+h1 {
+  color: white;
+}
 .input-group-rounded .input-group-field {
   border-radius: 5000px 0 0 5000px;
   padding-left: 1rem;
@@ -106,7 +108,7 @@ text-decoration: underline;
   -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
           align-self: stretch;
-  background: #e6e6e6;
+  background: black;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -146,6 +148,6 @@ footer1{
   padding-top: 10px;
 }
 body{
-  background-color: blue;
+  background-color: black;
 }
 
